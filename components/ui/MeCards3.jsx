@@ -46,7 +46,7 @@ export default function MeCards3() {
                             <div smart-image="true" className="h-5 w-5 flex-shrink-0" style={{backgroundImage: 'url("https://toasty.is-fi.re/32F8PHV.png")',backgroundPosition: 'center center',backgroundSize: 'cover', }}><img src="https://toasty.is-fi.re/32F8PHV.png" alt="image" loading="lazy" className="invisible"/></div>
                         </div>
                         <span className='flex-1 truncate text-sm'>
-                            Java
+                            Java 
                         </span>
                     </div>
                     <div className='card-base rounded-lg flex items-center space-x-4'>
