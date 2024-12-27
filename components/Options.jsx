@@ -8,9 +8,6 @@ export default function Options() {
         <li className='bg-buttonbackground border-bordercolor border rounded-full py-2 px-5 cursor-pointer'>
           <FiAlignJustify/>
         </li>
-        <li className='bg-buttonbackground border-bordercolor border rounded-full py-2 px-5 cursor-pointer'>
-          <FiMoon />
-        </li>
       </ul>
     </div>
   )
