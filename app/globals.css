@@ -5,7 +5,7 @@
 
 
 :root {
-  --background: #262626;
+  --background: #ffffff;
   --foreground: #171717;
   --border-opacity: 1;
   --border-color: rgb(38,38,38,var(--border-opacity));
