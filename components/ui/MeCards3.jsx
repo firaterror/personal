@@ -72,25 +72,17 @@ export default function MeCards3() {
                     </div>
                     <div className='card-base rounded-lg flex items-center space-x-4'>
                         <div className='rounded-lg flex'>
+                            <img src="https://framerusercontent.com/images/TvJ9grdPgk3sRz6T6XwkpBrFr4k.png?scale-down-to=512" width={20} height={20} alt='anani sikeyim anani'></img>
+                        </div>
+                        <span className='flex-1 truncate text-sm'>
+                            Framer
+                        </span>
+                    </div>
+                    <div className='card-base rounded-lg flex items-center space-x-4'>
+                        <div className='rounded-lg flex'>
                             <Image src="/burp.svg" width={20} height={20} alt='anani sikeyim anani'></Image>
                         </div>
                         <span className='flex-1 truncate text-sm'>Burp Suite</span>
-                    </div>
-                    <div className='card-base rounded-lg flex items-center space-x-4'>
-                        <div className='rounded-lg flex'>
-                            <Image src="/eclipse-logo.png" width={20} height={20} alt='anani sikeyim anani'></Image>
-                        </div>
-                        <span className='flex-1 truncate text-sm'>
-                            Eclipse IDE
-                        </span>
-                    </div>
-                    <div className='card-base rounded-lg flex items-center space-x-4'>
-                        <div className='rounded-lg flex'>
-                            <Image src="/Vscodelogo.png" width={20} height={20} alt='anani sikeyim anani'></Image>
-                        </div>
-                        <span className='flex-1 truncate text-sm'>
-                            Visual Studio Code
-                        </span>
                     </div>
                 </div>
             </section>

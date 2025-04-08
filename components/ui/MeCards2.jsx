@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function MeCards2() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   return (
     <section className='grid gap-x-8 gap-y-24 md:grid-cols-2'>
         <div>
@@ -8,7 +10,17 @@ function MeCards2() {
             <ul className='mt-4 grid gap-2'>
                 <li className='card-base p-4 rounded-lg cursor-pointer space-y-2'>
                     <h3 className='font-bold truncate text-white'>Indepented Security Researcher</h3>
-                    <p className='text-white/30 text-md line-clamp-2'>Acknowledged and paid by over 30 organizations in different industries including Sony, Spotify, Dice.fm, Hugging Face for reporting security vulnerabilities</p>
+                    <div className='space-y-1'>
+                        <p className={`text-white/30 text-md ${!isExpanded ? 'line-clamp-2' : ''}`}>
+                            Acknowledged and paid by over 30 organizations in different industries including Sony, Spotify, Dice.fm, Hugging Face for reporting security vulnerabilities
+                        </p>
+                        <button 
+                            onClick={() => setIsExpanded(!isExpanded)}
+                            className='text-white/50 text-sm hover:text-white/70 transition-colors'
+                        >
+                            {isExpanded ? 'Show less' : 'Show more'}
+                        </button>
+                    </div>
                 </li>
             </ul>
         </div>
